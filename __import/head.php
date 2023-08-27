@@ -22,6 +22,8 @@
 <link rel="stylesheet" href="https://simorghbu.github.io/dev/cdn/bootstrap/v5.0.2/style.rtl.css">
 <!-- styles -->
 <link rel="stylesheet" href="./template/css/index.css">
+<link rel="stylesheet" href="./template/css/media.css">
+
 
 <style>
     :root{

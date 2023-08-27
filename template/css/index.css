@@ -3,3 +3,27 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.btn-orange {
+    background-color: var(--pa-bg-orange-400);
+    box-shadow: 0 2px 5px rgba(255,255,255,.25), 0 5px 15px rgba(255,185,49,.35);
+    transition: all 0.2s;
+}
+
+.btn-orange:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(255,255,255,.3), 0 7px 30px rgba(255,176,24,.45);
+}
+
+.title-bg-box {
+    height: 1000px;
+    width: 38%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(-35deg,#9bcc43 0,#35ba6b 100%);
+    transform: rotate(-10deg);
+    border-bottom-right-radius: 50px;
+    transform-origin: bottom left;
+    z-index: 0;
+}

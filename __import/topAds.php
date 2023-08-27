@@ -9,7 +9,7 @@
                     ۳۰٪ تخفیف تابستانه برای خرید سامانه پیامکی، فقط تا آخر هفته                        </p>
             </div>
             <div class="col-12 col-md-3 d-flex align-items-center justify-content-center justify-content-md-end p-0">
-                <a style="background-color: var(--pa-bg-orange-400);box-shadow: 0 2px 5px rgba(255,255,255,.25), 0 5px 15px rgba(255,185,49,.35);" href="#" class="btn rounded-pill text-white mg-padding11rem25rem ad-off70-a">مشاهده تعرفه ها</a>
+                <a href="#" class="btn btn-orange rounded-pill text-white mg-padding11rem25rem ad-off70-a">مشاهده تعرفه ها</a>
             </div>
         </div>
     </div>

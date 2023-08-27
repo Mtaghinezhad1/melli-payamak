@@ -15,6 +15,14 @@
     <!-- top Ads -->
     <?php include_once ("./__import/topAds.php"); ?>
 
+    <!-- header -->
+    <?php include_once("./__import/header.php"); ?>
+
+    <!-- title -->
+    <?php include_once("./__import/title.php"); ?>
+
+
+
 
     <script src="template/js/index.js"></script>
 </body>
