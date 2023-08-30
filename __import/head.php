@@ -31,6 +31,7 @@
         --bs-font-size-base: 16px;
         --bs-text-color: var(--pa-bg-gray-500);
         --bs-dark: var(--pa-bg-gray-800);
+        --gradient: linear-gradient(-35deg,#9bcc43 0,#35ba6b 100%)
     }
 
     .text-dark {

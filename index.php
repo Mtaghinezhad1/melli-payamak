@@ -18,12 +18,11 @@
     <!-- header -->
     <?php include_once("./__import/header.php"); ?>
 
-    <!-- title -->
-    <?php include_once("./__import/title.php"); ?>
 
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="template/js/index.js"></script>
 </body>
 </html>
