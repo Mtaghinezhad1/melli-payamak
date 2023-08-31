@@ -39,7 +39,7 @@
                                 تعرفه ها
                             </a>
                         </li>
-                        <li class="nav-item d-flex align-items-center justify-content-start dropTrigger">
+                        <li class="dropDownTrigger nav-item d-flex align-items-center justify-content-start dropTrigger">
                             <a class="nav-link text-dark" href="#">
                                 خدمات بیشتر
                                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="green" class="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -48,7 +48,7 @@
                             </a>
 
                         </li>
-                        <li class="nav-item d-flex align-items-center justify-content-start dropTrigger">
+                        <li class="dropDownTrigger d-flex align-items-center justify-content-start dropTrigger">
                             <a class="nav-link text-dark" href="#">
                                 وب سرویس
                                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="green" class="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -57,7 +57,7 @@
                             </a>
 
                         </li>
-                        <li class="nav-item d-flex align-items-center justify-content-start dropTrigger">
+                        <li class="dropDownTrigger d-flex align-items-center justify-content-start dropTrigger">
                             <a class="nav-link text-dark" href="#">
                                 راهنما
                                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="green" class="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -65,7 +65,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="nav-item d-flex align-items-center justify-content-start dropTrigger">
+                        <li class="dropDownTrigger d-flex align-items-center justify-content-start dropTrigger">
                             <a class="nav-link text-dark" href="#">
                                 تماس
                                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="green" class="bi bi-chevron-down" viewBox="0 0 16 16">
@@ -76,7 +76,7 @@
                         </li>
 
                         <!-- drop down container -->
-                        <ul id="dropDownContainer" style="top: 70px; box-shadow: 0 10px 50px rgba(28,76,156,.15);" class="d-none position-absolute bg-white rounded-3 p-4 ">
+                        <ul id="dropDownContainer" style="top: 40px;" class="position-absolute rounded-3">
                             <li style="list-style: none" class="d-flex align-items-center justify-content-start mg-margin-bottom20rem">
 
                                     <!-- icon -->
@@ -229,7 +229,13 @@
 
 
         <!-- title section -->
-        <div style="overflow-x: hidden; overflow-y: auto" class="w-100 position-relative mg-h1000rem">
-        </div>
+        <section style="overflow-x: hidden; overflow-y: auto" class="position-relative mg-h1000rem">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-6"></div>
+                    <div class="d-none d-xl-block col-xl-6"></div>
+                </div>
+            </div>
+        </section>
     </div>
 </header>

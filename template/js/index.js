@@ -2,7 +2,7 @@ const topAds = document.getElementById('topAds');
 const topAdsBtn = document.getElementById('topAdsBtn');
 const menuBtn = document.getElementById('menu-sm-btn');
 const dropdownContainer = document.getElementById('dropDownContainer');
-const dropTriggers = document.getElementsByClassName("dropTrigger");
+const dropTriggers = document.querySelectorAll(".dropTrigger");
 
 // event listener for topAds
 topAdsBtn.addEventListener("click", ()=>{
@@ -15,11 +15,13 @@ menuBtn.addEventListener('click', ()=>{
 })
 
 // show and animate drop downs
-for (let i; i<dropTriggers.length; i++){
-    dropTriggers[i].addEventListener("mouseover", (event) => {
-        dropdownContainer.classList.remove('d-none');
-        console.log('s')
-    });
-}
+dropTriggers.forEach(el => {
+    let xRight = el.offsetLeft;
+    el.addEventListener('mouseover',()=>{
+        dropdownContainer.style.left= `${xRight}px`;
+    })
+    console.log(xRight);
+})
+
 
 
