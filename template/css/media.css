@@ -14,4 +14,8 @@
     .title-bg-box {
         width: 43%;
     }
+
+    .title-text-shadow {
+        box-shadow: 0 10px 50px rgba(28,76,156,.15);
+    }
 }
